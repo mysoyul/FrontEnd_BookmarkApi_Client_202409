@@ -1,10 +1,13 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "@/app/components/NavBar";
 
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Bookmark</h1>
-      <button className={"btn btn-primary"}>Click</button>
+      <NavBar />
+      <main>
+        <h1>Welcome to Bookmarker</h1>
+      </main>
     </div>
   );
 }
