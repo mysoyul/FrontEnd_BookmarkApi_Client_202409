@@ -18,7 +18,7 @@ export default async function BookmarkPage(props: Props)  {
   return (
     <div>
        <SearchForm />
-       <Bookmarks bookmarks={bookmarksRes} />
+       <Bookmarks bookmarks={bookmarksRes} query={query} />
     </div>
   );
 }
